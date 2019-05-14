@@ -55,6 +55,8 @@
             <a class="dropdown-item" href="post2.html">Post 2</a>
             <a class="dropdown-item" href="post3.html">Post 3</a>
             <a class="dropdown-item" href="post4.html">Post 4</a>
+            <a class="dropdown-item" href="post5.html">Post 5</a>
+            <a class="dropdown-item" href="post6.html">Post 6</a>
             </div>
           </li>
           <li class="nav-item">
@@ -74,11 +76,11 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
             <h1>Blogging About Mobile test.</h1>
-            <h2 class="subheading">Excited to share my thoughts and findings about "Mobile test."
+            <h2 class="subheading">Excited to share my thoughts and findings about "Evaluating Accessibility."
             </h2>
             <span class="meta">Posted by
               <a href="#">Aric Masih</a>
-              on April 28, 2019</span>
+              on May 5, 2019</span>
           </div>
         </div>
       </div>
@@ -92,49 +94,58 @@
         <div class="col-lg-8 col-md-10 mx-auto">
 
           <!--What site (entire domain or single feature) are you working with? (Include the URL.)-->
+          <!--What website did you use?
+            What's the purpose and intended audience of the site?
+            What tools/standards did you use to evaluate the site?
+            What were the results of that evaluation?
+            What are your recommendations to improve the accessibility of the site?-->
           <section>
           <p>
-            <h3><blockquote class="blockquote">Mobile Usability Test.</blockquote>
-            </h3>
-            </p>
-            <img src= "img/DiscountTire.png" alt="Image of DOL page." width="750" height="400">
-            <p>
-                I am recently in the market for replacement tires for my vehicle. I am going to use <a href="https://www.discounttire.com/">Discount Tire</a> 
-                site to search for tires and I am going to focus on tire search feature specifily on this site. Navigation elements on homepage are very clear and just easy to spot
-                on sub menus hierarchies. 
-            </p>
+            <h3>Evaluating Accessibility.</h3>
+
+          </p>
+            <img src= "img/IGN.png" alt="IGN.com homepage" width="750" height="400">
+          <p>
+            For this blog post I am going to evaluate one of my favorite websites <a href="https://www.ign.com/">IGN</a>. 
+                
+          </p>
           </section>
-          <!--What is the purpose of the site? -->
-          <!--What criteria are you using to analyze the site?-->
-          <!--For each criterion, what is working and what is not working currently on the site?-->
-          <!--For each criterion, how could the site be improved?-->
-          <p>
-              <H4>Usability</H4>
-              Purpose of this site is to help customers serach for tires by vehicle model, size, brand, and also place pruchase orders. I am using interface elements such as input controls, navigation, and informational compnents for usability.
-          </p>
           <br>
+          <section>          
           <p>
-              <h4>Input Controls</h4>
-              <img src= "img/DiscountTire2.png" alt="Image of DOL page." width="750" height="400">
-              Input controls consists of dropdown menu and text feilds which are easy to follow. You need to have basic information about your car's wheel specifications so you can selset from the given options. 
+              <H4>Purpose of this website.</H4>
+              “IGN Entertainment is the leading Internet media company focused on the video game and entertainment enthusiast markets. 
+              IGN reaches more than 170 million monthly users and is followed by more than 11 million subscribers on YouTube and 31 million users on social platforms.”(<a href="https://www.ign.com/">IGN</a>)
           </p>
-          <br>
           <p>
-              <h4>Navigation</h4>
-              <img src= "img/DiscountTire3.png" alt="Image of DOL page." width="750" height="400">
-              Navigation is rather smooth as you make on screen selection you move forward and follow the process to complete purchase order. 
+              <h4>Tools and standards.</h4>
+          </p>
+          <p>
+            Tools I am using for this project are Light House and Wave. Lighthouse is an open-source, automated tool for improving the quality of web pages.
+            Wave is used to evaluate the accessibility of millions of web pages. 
+          </p>
+          <p>
+            Standards: Perceivable, Operable, understandable, and robust. 
+          </p>
+          <p>
+              <h4>Results from Evaluation.</h4>
+              <img src= "img/IgnLighthouse.png" alt="Light house results for IGN." width="750" height="400"> 
             </p>
+            <p>
+                <img src= "img/WaveIgn.png" alt="Waveresults for IGN." width="750" height="400">
+            </p>
+            There are a few issues on the website. Contrat, CSS, and some images are missing alt information. 
             <br>
             <p>
-                <h4>Breadcrumbs</h4>
-                <img src= "img/DiscountTire4.png" alt="Image of DOL page." width="750" height="400">
-                As you start the prcosess from main page you have the navigation bar at the top and it stays fixed as you scroll up and down the page. After selecting the right sepcifications you move forward in the process but you have the link to navigation menu on the top in case you need to go back or cancle. 
+              <h4>Recommendations.</h4>
+              <img src= "img/WaveIgn2.png" alt="Image of DOL page." width="750" height="400"> 
+            </p>
+            <p>
+              Overall accessibility score is 86 which is not bad but we can achive 100 compliance by adding alt attribute to all images.
+              Fixing the contrast in background and text will help in reading and assist user visiual impaired.   
             </p>
             <br>
-            <h4>Competition</h4>
-            <p>
-                I picked <a href="https://tires.costco.com/">Costco</a> tire for comparision since they are selling similar products but have different usability elements.
-            </p>
+            </section>
         </div>
       </div>
     </div>
