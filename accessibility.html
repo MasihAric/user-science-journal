@@ -106,7 +106,7 @@
   <!-- Main Content -->
   <div class="container">
       <div style="text-align:center">
-          <button onclick="playPause()">Play/Pause</button>
+          <!-- <button onclick="playVid()">Play</button> -->
           <button onclick="makeBig()">Big</button>
           <button onclick="makeSmall()">Small</button>
           <button onclick="makeNormal()">Normal</button>
@@ -115,22 +115,9 @@
           </div>
       <script>
           var myVideo = document.getElementById("video1");
-
-        //   function pause(){
-        //       myVideo.pause();
-        //   }
-
-          function playPause() {
-              if (myVideo.paused)
-                  myVideo.play();
-              else
-                  myVideo.pause();
-          }
-
           function makeBig() {
               myVideo.width = 800;
           }
-
           function makeSmall() {
               myVideo.width = 420;
           }
